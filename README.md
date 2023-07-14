@@ -37,10 +37,7 @@ Images are of different backgrounds, with and/ or without human face in it.
 6. Train and save the model with Keras.model
 7. Perform real time face detection with OpenCV
 
-
-<div style="text-align: center;">
-  <img src="https://github.com/manyuzhang1996/Deep-Face-Detection-Model-with-Python-and-TensorFlow/assets/111943220/a1ac94d3-f734-4cb0-bd58-2fb9c4428bf5" width="600" height="500" alt="Deep Face Detection Project Architecture">
-</div>
+![Deep Face Detection Project Architecture copy](https://github.com/manyuzhang1996/Deep-Face-Detection-Model-with-Python-and-TensorFlow/assets/111943220/88f2dc1b-073b-44f2-ab6b-013295b8af15)
 
 
 
