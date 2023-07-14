@@ -2,9 +2,9 @@
 # Read-Time Deep Face Detection Model
 
 A project leverages Python and TensorFlow to create a deep face detection model which can perform real-time detection.
+![Deep Face Detection Project Architecture](https://github.com/manyuzhang1996/Deep-Face-Detection-Model-with-Python-and-TensorFlow/assets/111943220/a1ac94d3-f734-4cb0-bd58-2fb9c4428bf5)
 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 ## Tech Stack
@@ -26,7 +26,23 @@ There are 90 images collected. After image augmentation with albumentations, we 
 
 Images are of different backgrounds, with and/ or without human face in it. 
 ## Project Architecture
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+1. Collect images with webcam using OpenCV
+2. Annotate images by adding bounding boxes around the face with LabelMe
+3. Conduct image augmentation with Albumentations
+4. Define loss function which combines face classification loss and bounding coordinates regression loss
+5. Design the neural network for this project. Uses the VGG16 model (without final layer) as base, append the classification model and regression model to VGG16 base model respectively
+6. Train and save the model with Keras.model
+7. Perform real time face detection with OpenCV
+
+
+<div style="text-align: center;">
+  <img src="https://github.com/manyuzhang1996/Deep-Face-Detection-Model-with-Python-and-TensorFlow/assets/111943220/a1ac94d3-f734-4cb0-bd58-2fb9c4428bf5" width="600" height="500" alt="Deep Face Detection Project Architecture">
+</div>
+
+
+
 
 
 ## Run Locally
@@ -34,7 +50,7 @@ Images are of different backgrounds, with and/ or without human face in it.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  gh repo clone manyuzhang1996/Deep-Face-Detection-Model-with-Python-and-TensorFlow
 ```
 
 ## Contact
