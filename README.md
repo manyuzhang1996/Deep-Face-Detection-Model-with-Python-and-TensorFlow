@@ -2,7 +2,8 @@
 # Read-Time Deep Face Detection Model
 
 A project leverages Python and TensorFlow to create a deep face detection model which can perform real-time detection.
-![Deep Face Detection Project Architecture](https://github.com/manyuzhang1996/Deep-Face-Detection-Model-with-Python-and-TensorFlow/assets/111943220/a1ac94d3-f734-4cb0-bd58-2fb9c4428bf5)
+
+![Deep Face Detection Project Architecture copy](https://github.com/manyuzhang1996/Deep-Face-Detection-Model-with-Python-and-TensorFlow/assets/111943220/88f2dc1b-073b-44f2-ab6b-013295b8af15)
 
 
 
